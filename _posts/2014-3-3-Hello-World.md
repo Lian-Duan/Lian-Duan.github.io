@@ -3,7 +3,7 @@ layout: post
 title: 技术博客
 ---
 
-##Why?
+## Why?
 - Turing machine is much stronger than FA
-##When?
+## When?
 - It's Oct 21st, 2017, I get start to write tech blog

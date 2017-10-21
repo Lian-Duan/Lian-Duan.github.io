@@ -1,4 +1,8 @@
-#技术博客
+---
+layout: post
+title: 技术博客
+---
+
 ##Why?
 - Turing machine is much stronger than FA
 ##When?

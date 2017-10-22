@@ -18,4 +18,39 @@ _How can we come up with Divide and Conquer paradigm when confronted with a spec
   - recursion tree:break the equation down to base case, and compute layer by layer to get a solution.
   - master theorem:T(n) = a * T(n/b) + f(n), according (logba, a logarithm of base b), we get threee possibe situations.
 
+## 3. Examples
+### 3.1 merge Sort
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.
 
+### 3.2 maximum subarray
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.
+
+### 3.3 matrix multiplication
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.
+
+### 3.4 convex hull
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.
+
+### 3.5 median finding
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.
+
+### 3.6 peak finding
+- Problem definition.
+- Algorithm description.
+- Correctness proof.
+- Running time analysis.

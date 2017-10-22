@@ -41,11 +41,11 @@ Brute force algorithm, consider all the pairs(i, j),and compute the sum, thus th
 
 Divide and Conquer
 
-  1.Divide the original array to two almost equal sized subarrays, left half and right half, leave middle point alone.
+  1. Divide the original array to two almost equal sized subarrays, left half and right half, leave middle point alone.
   
-  2.Conquer left half and right half subarrays recursively.
+  2. Conquer left half and right half subarrays recursively.
   
-  3.Combine. Find the maximum subarray that crosses the middle point. We do it like this, from the middle point which partitions the original array, compute the maximum sum and position left-wise and right-wise respectively, and merge the two parts together to form a new subarray. And now, we compare left half maximum, right half maximum, and the maximum that crosses the middle point, now we get the optimal one. 
+  3. Combine. Find the maximum subarray that crosses the middle point. We do it like this, from the middle point which partitions the original array, compute the maximum sum and position left-wise and right-wise respectively, and merge the two parts together to form a new subarray. And now, we compare left half maximum, right half maximum, and the maximum that crosses the middle point, now we get the optimal one. 
   
   
 - Correctness proof.

@@ -18,7 +18,9 @@ _How can we come up with Divide and Conquer paradigm when confronted with a spec
 + There are three methods for solving recurrence equations:
   - substitution method: You guess a solution and substitute it for the equation and verify it's valid.
   - recursion tree:break the equation down to base case, and compute layer by layer to get a solution.
-  - master theorem:$$T(n) = \mathrm{a}\!\cdot\!\mathrm{T(n/b)} + f(n)$$, according to $$\log_b a$$, we get threee possibe situations.
+  - master theorem
+  
+    $$T(n) = \mathrm{a}\!\cdot\!\mathrm{T(n/b)} + f(n)$$, according to $$\log_b a$$, we get threee possibe situations.
 
 ## 3. Examples
 ### 3.1 merge Sort
@@ -38,15 +40,21 @@ _How can we come up with Divide and Conquer paradigm when confronted with a spec
 Brute force algorithm, consider all the pairs(i, j),and compute the sum, thus the complexity is $$\Theta(n^2)$$
 
 Divide and Conquer
+
   1.Divide the original array to two almost equal sized subarrays, left half and right half, leave middle point alone.
+  
   2.Conquer left half and right half subarrays recursively.
+  
   3.Combine. Find the maximum subarray that crosses the middle point. We do it like this, from the middle point which partitions the original array, compute the maximum sum and position left-wise and right-wise respectively, and merge the two parts together to form a new subarray. And now, we compare left half maximum, right half maximum, and the maximum that crosses the middle point, now we get the optimal one. 
   
+  
 - Correctness proof.
+
   Proof. For the base case, where the subarray have only one value, it is trivial.
          When combine, maximum subarray can have only placement, entirely left half, entirely half, crossing half, due to our algorithm, we compute all the three cases, thus we get a maximum subarray over the original array.
          By induction, we get a maximum subarray. $$\Box$$
-         
+      
+      
 - Running time analysis.
   $$\Theta(n\lg n)$$
   

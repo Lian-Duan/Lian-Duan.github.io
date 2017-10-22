@@ -18,6 +18,12 @@ _How can we come up with Divide and Conquer paradigm when confronted with a spec
   - substitution method: You guess a solution and substitute it for the equation and verify it's valid.
   - recursion tree:break the equation down to base case, and compute layer by layer to get a solution.
   - master theorem:T(n) = a * T(n/b) + f(n), according to $ x = \\log_b a $, we get threee possibe situations.
+  
+  \begin{CD}
+        A @>>> B @>{\text{very long label}}>> C \\
+        @. @AAA @| \\
+        D @= E @<<< F
+    \end{CD}
 
 ## 3. Examples
 ### 3.1 merge Sort

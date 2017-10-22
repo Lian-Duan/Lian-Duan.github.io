@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -48,11 +49,4 @@
 
     {% include analytics.html %}
   </body>
-  
-  <script type="text/x-mathjax-config"> 
-    MathJax.Hub.Config({ 
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} 
-    }); 
-  </script>
-  <script type="text/javascript" src="http://freewind.me/blog/20130107/path-to-MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </html>

@@ -17,17 +17,7 @@ _How can we come up with Divide and Conquer paradigm when confronted with a spec
 + There are three methods for solving recurrence equations:
   - substitution method: You guess a solution and substitute it for the equation and verify it's valid.
   - recursion tree:break the equation down to base case, and compute layer by layer to get a solution.
-  - master theorem:T(n) = a * T(n/b) + f(n), according to $ x = \\log_b a $, we get threee possibe situations.
-  
-  $$
-    \left\{
-      \begin{aligned} 
-      a_1x+b_1y+c_1z &=d_1+e_1 \\ 
-      a_2x+b_2y&=d_2 \\ 
-      a_3x+b_3y+c_3z &=d_3 
-     \end{aligned} 
-    \right. 
- $$
+  - master theorem:T(n) = a * T(n/b) + f(n), according to $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$, we get threee possibe situations.
 
 ## 3. Examples
 ### 3.1 merge Sort
